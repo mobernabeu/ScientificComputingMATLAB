@@ -43,7 +43,7 @@ required_files = { 'AssemblyFiniteDifferencesMatrix.m'
 sched = parcluster();
 
 % Obtains a reference to the Legion scheduler
-%sched = parcluster('LegionProfile');
+%sched = parcluster('legion_R2013a');
 
 % Creates a job that will be submitted to the selected scheduler.
 job = createJob(sched);
