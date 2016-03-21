@@ -53,7 +53,7 @@ job = createJob(sched);
 
 % Creates a MATLAB task to be executed as part of the job. It will consist
 % of a run of function RunAndVisualiseMonodomainSimulation. The rest of
-% arguments indicate that it returns two parameters and takes a cell vector
+% arguments indicate that it returns three parameters and takes a cell vector
 % with the input parameters 
 task = createTask(job, @RunAndVisualiseMonodomainSimulation,3,{50,1.5,1.4,1.4,false});
 
