@@ -91,6 +91,7 @@ times(6) = toc(t);
 t=tic;
 systemMatrix = AssemblyFiniteDifferencesMatrix_mex(problemConfiguration);
 times(2) =  toc(t);
+% End Section 2
 
 firstCellActivationTime = 0; lastCellActivationTime = 0;
 firstCellActive = false;lastCellActive = false;

@@ -80,6 +80,7 @@ end
 % Section 2: assembly monodomain system matrix
 %
 systemMatrix = AssemblyFiniteDifferencesMatrix(problemConfiguration);
+% End Section 2
 
 firstCellActivationTime = 0; lastCellActivationTime = 0;
 firstCellActive = false;lastCellActive = false;
